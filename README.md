@@ -9,7 +9,7 @@ This repository contains IDL code and save files to produce the relative respons
 
 I have also included the extended stellar templates, from NUV to IR, for these spectral types (`mX_template.dat.gz`). The extended version of Fig 11 from the paper is below:
 
-![](m0-m6.png =450x)
+![](m0-m6.png?raw=true =450x)
 
 
 **Notes:**
