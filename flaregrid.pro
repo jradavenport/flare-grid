@@ -54,7 +54,7 @@ if not keyword_set(sptype) then sptype=0 ; default = M0
 if not keyword_set(filter) then filter=0 ; default = u band
 
 ;==> this must be the absolute path to the flaregrid data
-restore,'~/Dropbox/jrad_idl/flaregrid/flaregrid.sav'
+restore,'flaregrid.sav'
 
 ;new Y = INTERPOL(old Y, old X,new X)
 u = interpol(flaregrid[sptype,0,*],flaregrid[sptype,filter,*],mag,/spline)
